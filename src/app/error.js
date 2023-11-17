@@ -1,4 +1,5 @@
 "use client";
+//as we are using useEffect and onclick also so we need to include "use client".
 
 import React, { useEffect } from "react";
 
