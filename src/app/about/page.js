@@ -25,7 +25,7 @@ export default function About() {
       </p>
 
       <p>
-        Our commitment extends beyond the screen – we want to empower you to
+        Our commitment extends beyond the screen we want to empower you to
         make informed choices about what to watch next. The detailed
         information, thoughtful reviews, and user ratings are here to assist you
         on your cinematic journey. Consider Movie Dekho your co-pilot, guiding
@@ -37,6 +37,8 @@ export default function About() {
         simply revel in the joy of movies, Movie Dekho welcomes you with open
         arms. Join us as we celebrate the magic of cinema, one click at a time.
       </p>
+
+      <h1 className="font-semibold">Thankyou ♥</h1>
     </div>
   );
 }
