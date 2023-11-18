@@ -11,6 +11,7 @@ export default function Card({ result }) {
           src={`https://image.tmdb.org/t/p/original/${
             result.backdrop_path || result.poster_path
           }`}
+          // next js mai width & height likhna jruri hai nahi to error aayga.
           width={500}
           height={300}
           className="sm:rounded-t-lg group-hover:opacity-80 transition-opacity duration-200"
@@ -18,6 +19,7 @@ export default function Card({ result }) {
             maxWidth: "100%",
             height: "auto",
           }}
+          // added loading svg when image takes time to show
           placeholder="blur"
           blurDataURL="/spinner.svg"
           alt="image is not available"
