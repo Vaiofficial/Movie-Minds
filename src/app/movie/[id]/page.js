@@ -9,6 +9,10 @@ async function getMovie(movieId) {
   return await res.json();
 }
 
+//jab hum dynamic routing karte hai by placing [] brackets ,  the values for those dynamic segments are passed as parameter to the corresponding page component. means param mai hum access kar skte hai [id] ko.
+
+//jab hum log card ko click kar rhe so uske url se ID ko extract kar rha hai and as a param us id ko dera hai.
+
 export default async function MoviePage({ params }) {
   const movieId = params.id;
   const movie = await getMovie(movieId); //function calling
