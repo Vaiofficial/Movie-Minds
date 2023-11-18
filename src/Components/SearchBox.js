@@ -11,6 +11,7 @@ export default function SearchBox() {
     e.preventDefault();
     if (!search) return;
     router.push(`/search/${search}`);
+    setSearch("");
   }
 
   return (
